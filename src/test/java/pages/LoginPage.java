@@ -1,7 +1,9 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import utilities.ConfigReader;
 
 public class LoginPage extends BasePage{
 
@@ -17,6 +19,7 @@ public class LoginPage extends BasePage{
     WebElement submitBtn;
 
     public void enterValidLoginInfo() {
+
         usernameInput.sendKeys("LoloPolo123@gmail.com");
         passwordInput.sendKeys("LoloPolo123");
 
@@ -25,8 +28,22 @@ public class LoginPage extends BasePage{
 
     }
 
+    public void enterValidLoginInfo(String username, String password) {
+
+        usernameInput.sendKeys(ConfigReader.getConfigProperty(username));
+        passwordInput.sendKeys(ConfigReader.getConfigProperty(password));
+    }
+
     public void clickSignInBtn(){
         submitBtn.click();
     }
 
+//    public void clickSignUpBtn(){
+//        submitBtn.click();
+//    }
+
+
+//    public void verifyRegistrationIsSuccessful(){
+//        Assert.assertTrue("Registration is not successful",v);
+//    }
 }

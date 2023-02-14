@@ -13,9 +13,9 @@ public class LoginSteps {
     HomePage homePage = new HomePage();
 
 
-    @Given("user enters valid username and password")
-    public void user_enters_valid_username_and_password() {
-        loginPage.enterValidLoginInfo();
+    @Given("user enters valid {string} and {string}")
+    public void user_enters_valid_username_and_password(String username,String password) {
+        loginPage.enterValidLoginInfo(username,password);
     }
 
     @When("user clicks on Sign In button")
@@ -27,5 +27,6 @@ public class LoginSteps {
     public void verify_user_is_successfully_logged_in_to_the_account() {
         homePage.verifyPage();
     }
+
 
 }
