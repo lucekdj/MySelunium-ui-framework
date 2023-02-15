@@ -9,6 +9,9 @@ Feature: SignUp feature
     And user fills the form for the second page
     And use clicks the register button
 
+# this will run test 3 times for every option Mr.Ms.Mrs instead only 1 time for Mr.
+  #   And user fills the form for gender "Mr."
+
 
     Examples:
 

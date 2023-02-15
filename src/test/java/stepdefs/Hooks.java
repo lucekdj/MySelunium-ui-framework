@@ -10,7 +10,7 @@ public class Hooks {
     @Before
     public void setUp(){
 
-        //Her we are initializing the properties object inside of  the ConfigReader class we created
+        //Her we are initializing the properties object what is in side of  the ConfigReader class we created
         ConfigReader.initializeProperties();
 
         DriverUtilities.createDriver();

@@ -18,6 +18,16 @@ public class LoginPage extends BasePage{
     @FindBy (id = "submit")
     WebElement submitBtn;
 
+    @FindBy (xpath = "//*[@class='badge badge-pill badge-danger']")
+    WebElement  errorMessageLogo;
+
+    @FindBy(id = "remember-me")
+    WebElement RememberMeBox;
+
+    @FindBy(className = "align-content")
+    WebElement DigitalBankLogo;
+
+
     public void enterValidLoginInfo() {
 
         usernameInput.sendKeys("LoloPolo123@gmail.com");
@@ -34,9 +44,38 @@ public class LoginPage extends BasePage{
         passwordInput.sendKeys(ConfigReader.getConfigProperty(password));
     }
 
+
+    public void enterInvalidLoginInfo(String invalidName,String invalidPassword){
+        usernameInput.sendKeys(ConfigReader.getConfigProperty(invalidName));
+        passwordInput.sendKeys(ConfigReader.getConfigProperty(invalidPassword));
+    }
+
+    public void verifyUserIsNotLoggedIn(){
+        Assert.assertTrue("Error message is not displayed",errorMessageLogo.isDisplayed());
+    }
+
     public void clickSignInBtn(){
         submitBtn.click();
     }
+
+
+    public void clickOnRememberMeBox(){
+        RememberMeBox.click();
+    }
+
+    public void enterValidPasswordOnly(String passwordOnly){
+        passwordInput.sendKeys(ConfigReader.getConfigProperty(passwordOnly));
+    }
+
+    public void navigateBackToLoginPage(){
+
+        driver.navigate().back();
+    }
+    public void verifyUserIsBackOnLoginPage(){
+        Assert.assertTrue("Digital BankLogo Is Not Visible",DigitalBankLogo.isDisplayed());
+    }
+
+
 
 //    public void clickSignUpBtn(){
 //        submitBtn.click();
