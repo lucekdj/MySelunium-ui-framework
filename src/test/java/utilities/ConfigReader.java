@@ -2,6 +2,7 @@ package utilities;
 
 import java.io.File;
 import java.io.FileReader;
+import java.security.Key;
 import java.util.Properties;
 
 public class ConfigReader {
@@ -12,18 +13,28 @@ public class ConfigReader {
 
     public static void initializeProperties() {
 
+
         try {
-            //We are creating an object of FileRader and passing the path to it.
-            //FileReader is a class in java which is used to read info from files
-            //It throws an exception which is why we have it surrounded in a try catch block
             FileReader fileReader = new FileReader("src/test/resources/config.properties");
-            //here we are initializing our properties object
+
             properties = new Properties();
             properties.load(fileReader);
         } catch (Exception e) {
-            //Here we are just printing the exception stack trace if there is one caught
             e.printStackTrace();
         }
+
+//        try {
+//            //We are creating an object of FileReader class and passing the path to it.
+//            //FileReader is a class in java which is used to read info from files
+//            //It throws an exception which is why we have it surrounded in a try catch block
+//            FileReader fileReader = new FileReader("src/test/resources/config.properties");
+//            //here we are initializing our properties object
+//            properties = new Properties();
+//            properties.load(fileReader);
+//        } catch (Exception e) {
+//            //Here we are just printing the exception stack trace if there is one caught
+//            e.printStackTrace();
+//        }
 
     }
 

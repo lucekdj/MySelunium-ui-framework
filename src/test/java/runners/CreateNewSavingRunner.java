@@ -7,16 +7,16 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+
         features = "src/test/resources/features" ,
         glue ="stepdefs" ,
-        //tags = "@Smoke",
-        //plugin = {"pretty", "html:Target/cucumber-smoke-report.html"}
-        tags = "@InvalidLogin",
-        plugin = {"pretty", "html:Target/cucumber-InvalidLogin-report.html"}
+        tags = "@CreateNewSaving",
+        plugin = {"pretty", "html:Target/cucumber-CreateNewSaving-report.html"}
+
 
 )
 
 
-public class SmokeRunner {
 
+public class CreateNewSavingRunner {
 }

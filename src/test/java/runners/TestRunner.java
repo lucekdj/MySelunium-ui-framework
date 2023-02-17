@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" ,
         glue ="stepdefs",
         plugin = {"pretty", "html:Target/cucumber-regression-report.html"}
+
 )
 public class TestRunner {
 
