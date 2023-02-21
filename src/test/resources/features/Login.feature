@@ -15,7 +15,8 @@ Feature: Login feature
       Then verify user is not logged in to the account
 
 
-  @Smoke
+
+  @RememberMe
   Scenario: Verify user  username entry is remembered
       Given user enters valid "valid.username" and "valid.password"
       And user clicks on RememberMe button

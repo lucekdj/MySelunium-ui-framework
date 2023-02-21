@@ -15,7 +15,7 @@ Feature: SignUp feature
 
     Examples:
 
-      | title |
-      | Mr.   |
-      | Ms.   |
-      | Mrs.  |
+      | title | title|
+      | Mr.   |Hs.   |
+      | Ms.   |gd.   |
+      | Mrs.  |hd.   |

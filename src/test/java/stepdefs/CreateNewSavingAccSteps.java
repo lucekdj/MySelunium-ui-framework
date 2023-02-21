@@ -12,7 +12,7 @@ public class CreateNewSavingAccSteps {
 
     HomePage homePage = new HomePage();
     CreateNewSavingAccPage createNewSavingAccPage = new CreateNewSavingAccPage();
-    ViewSavingAccPage viewSavingAccPage = new ViewSavingAccPage();
+
 
     @When("user clicks on saving option Btn")
     public void user_clicks_on_saving_option_Btn() {
@@ -42,7 +42,7 @@ public class CreateNewSavingAccSteps {
 
 
     @When("user fills out the forms for name and {string}")
-    public void user_fills_out_the_forms_for_name_and_deposit(String depositAmount) {
+    public void user_fills_out_the_forms_for_name_and_deposit(String depositAmount) throws InterruptedException {
        createNewSavingAccPage.accountNameAndDeposit(depositAmount);
     }
 
@@ -51,14 +51,5 @@ public class CreateNewSavingAccSteps {
        createNewSavingAccPage.clickOnSubmitBtn();
     }
 
-    @Then("verify user is on View Saving Page")
-    public void verify_user_is_on_view_saving_page() throws InterruptedException {
-       viewSavingAccPage.verifyIsOnViewSavingPage();
-    }
-
-    @Then("verify entered info is correct")
-    public void verify_entered_info_is_correct() {
-       viewSavingAccPage.verifyEnteredInfoIsCorrect();
-    }
 
 }

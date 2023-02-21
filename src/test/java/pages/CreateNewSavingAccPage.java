@@ -62,17 +62,22 @@ public class CreateNewSavingAccPage extends BasePage{
 
     }
 
-    public void accountNameAndDeposit(String amount){
-       // accNameEntry.sendKeys("LoloPoloVacation!!");
-        fakerNameEntry = faker.funnyName().name() + " --Vacation";
-        accNameEntry.sendKeys(fakerNameEntry);
+    public void accountNameAndDeposit(String amount) throws InterruptedException {
 
+
+        accNameEntry.sendKeys("LoloPoloVacation!!");
+
+//        fakerNameEntry = faker.funnyName().name() + " --Vacation";
+//        accNameEntry.sendKeys(fakerNameEntry);
+        Thread.sleep(2000);
         initDepositEntry.sendKeys(ConfigReader.getConfigProperty(amount));
-
+        Thread.sleep(2000);
     }
 
     public void clickOnSubmitBtn(){
         submitBtn.click();
+
+
     }
 
 

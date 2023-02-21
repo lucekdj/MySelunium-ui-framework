@@ -34,5 +34,10 @@ public class HomePage extends BasePage{
 
     public void clickOnNewSavingsBtn(){
         newSavingsOptBtn.click();
+
+
+
+
+
     }
 }

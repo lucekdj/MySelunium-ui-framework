@@ -19,7 +19,6 @@ public class BasePage {
         //page that we want to initialize the elements on
         PageFactory.initElements(driver, this);
 
-
-
     }
+
 }
