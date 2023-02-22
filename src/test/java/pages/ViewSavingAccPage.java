@@ -72,30 +72,35 @@ public class ViewSavingAccPage extends BasePage {
 //        Assert.assertTrue("Account doesn't exist ",listOfSavingAccounts.get(listOfAccountName.size()-1).getText().contains("LoloPoloVacation!!"));
 //        Assert.assertTrue("Account doesn't exist ",listOfSavingAccounts.get(listOfAccountTape.size()-1).getText().contains("Savings"));
 //        Assert.assertTrue("Account doesn't exist ",listOfSavingAccounts.get(listOfOwnershipType.size()-1).getText().contains("Joint"));
-//        Assert.assertTrue("Account doesn't exist ",listOfSavingAccounts.get(listOfNewAccDepositBalance.size()-1).getText().contains("2901.00"));
+//        Assert.assertTrue("Account doesn't exist ",listOfSavingAccounts.get(listOfNewAccDepositBalance.size()-1).getText().contains("2901"));
 //
 //    }
 
     public void verifyEnteredInfoIsCorrect() {
-        for (WebElement actualSavingAcc : listOfSavingAccounts ){
+
+        String result ="Nothing";
+        for (WebElement actualSavingAcc : listOfSavingAccounts) {
 
             String listOfAccountName = ConfigReader.getConfigProperty("saving.accName");
             String listOfAccountTape = ConfigReader.getConfigProperty("saving.accType");
             String listOfOwnershipType = ConfigReader.getConfigProperty("saving.accOwnership");
             String listOfNewAccDepositBalance = ConfigReader.getConfigProperty("saving.accDepositBalance");
 
-            if(actualSavingAcc.getText().contains(listOfAccountName)&&
-               actualSavingAcc.getText().contains(listOfAccountTape)&&
-               actualSavingAcc.getText().contains(listOfOwnershipType)&&
-               actualSavingAcc.getText().contains(listOfNewAccDepositBalance)){
+            if (actualSavingAcc.getText().contains(listOfAccountName) &&
+                    actualSavingAcc.getText().contains(listOfAccountTape) &&
+                    actualSavingAcc.getText().contains(listOfOwnershipType) &&
+                    actualSavingAcc.getText().contains(listOfNewAccDepositBalance)) {
 
-
+                System.out.println("done");
+                result = "success!!";
             }
+
         }
-
-
+        Assert.assertEquals("The info is incorrect ", "success!!", result);
 
 
     }
+
+
 }
 

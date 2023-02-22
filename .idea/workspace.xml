@@ -4,27 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3216ea77-78e9-4cb4-99e2-7fbf77e4fbdc" name="Changes" comment="Feb 14  readme.md / Faker">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewSavingsFillOutOnlyAndLogoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FancyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/NewSavingsFillOutOnlyAndLogoutSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/ViewSavingAccSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CommonMethods.java" afterDir="false" />
+    <list default="true" id="3216ea77-78e9-4cb4-99e2-7fbf77e4fbdc" name="Changes" comment="Feb 21  FancyTest in ReportFolder">
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/css/cucumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/report-feature_file-src-test-resources-features-Login-feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyReport/cucumber-html-reports/report-tag_Smoke.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateNewSavingAccPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateNewSavingAccPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ViewSavingAccPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ViewSavingAccPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/DepositRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/DepositRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CreateNewSavingAccSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CreateNewSavingAccSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/NewSavingsFillOutOnlyAndLogoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/NewSavingsFillOutOnlyAndLogoutSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NewSavingAcc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NewSavingAcc.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SignUp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SignUp.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +63,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LTm0z5lZZcqUyQcdCqDs0Z01Z4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/lucek/IdeaProjects/MyGitHubPrograms/MyLearn-selenium",
+    "last_opened_file_path": "C:/Users/lucek/IdeaProjects/Alex -group-project/Valter-selenium-ui-framework",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -81,7 +94,7 @@
       <recent name="C:\Users\lucek\IdeaProjects\selenium-ui-framework\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User Is Able To Fill Out New Saving Account Form And Reset">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User is able to verify info from his created savings accounts">
     <configuration name="Scenario: User Is Able To Fill Out New Saving Account Form And Reset" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewSavingAcc.feature" />
@@ -176,9 +189,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: User is able to verify info from his created savings accounts" />
         <item itemvalue="Cucumber Java.Scenario: User Is Able To Fill Out New Saving Account Form And Reset" />
         <item itemvalue="JUnit.FancyTest" />
-        <item itemvalue="Cucumber Java.Scenario: User is able to verify info from his created savings accounts" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.SmokeRunner" />
       </list>
@@ -200,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676437645551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feb 21  FancyTest in ReportFolder">
+      <created>1676992971860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676992971860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +235,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Feb 14  readme.md / Faker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 14  readme.md / Faker" />
+    <MESSAGE value="Feb 21  FancyTest in ReportFolder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 21  FancyTest in ReportFolder" />
   </component>
 </project>
