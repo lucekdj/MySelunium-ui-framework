@@ -37,7 +37,7 @@ public class CreateNewSavingAccSteps {
 
     @When("user select AccountType and Ownership")
     public void user_select_account_type_and_ownership() throws InterruptedException {
-       createNewSavingAccPage.accountTapeOption();
+       createNewSavingAccPage.accountTapeAndOwnershipOption();
     }
 
 

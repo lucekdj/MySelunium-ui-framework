@@ -23,10 +23,10 @@ public class LoginSteps {
         loginPage.clickSignInBtn();
     }
 
-    @Then("verify user is successfully logged in to the account")
-    public void verify_user_is_successfully_logged_in_to_the_account() {
-        homePage.verifyHomePage();
-    }
+//    @Then("verify user is successfully logged in to the account")
+//    public void verify_user_is_successfully_logged_in_to_the_account() {
+//        homePage.verifyHomePage();
+//    }             this is moved to home page  when we build with Shyam
 
 
     @Given("user enters invalid username {string} and invalid password {string}")

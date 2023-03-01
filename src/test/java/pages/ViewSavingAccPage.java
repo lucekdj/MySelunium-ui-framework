@@ -57,14 +57,18 @@ public class ViewSavingAccPage extends BasePage {
     }
 
 
-    public void verifyIsOnViewSavingPage() throws InterruptedException {
-          Actions actions = new Actions(driver);
-//        actions.moveToElement(viewSavAccTitle);
-          actions.scrollToElement(savingAccName);
-          Assert.assertTrue("View Saving Page Is Not Displayed", viewSavAccTitle.isDisplayed());
-        //Assert.assertTrue("Confirmation message is not displayed", confirmationSign.isDisplayed());
-        Thread.sleep(5000);
+//    public void verifyIsOnViewSavingPage() throws InterruptedException {
+//          Actions actions = new Actions(driver);
+////        actions.moveToElement(viewSavAccTitle);
+//          actions.scrollToElement(savingAccName);
+//          Assert.assertTrue("View Saving Page Is Not Displayed", viewSavAccTitle.isDisplayed());
+//        //Assert.assertTrue("Confirmation message is not displayed", confirmationSign.isDisplayed());
+//        Thread.sleep(5000);
+//    }
+    public boolean verifyIsOnViewSavingPage()  { // Valter sposob Assortion above is mine
+        return viewSavAccTitle.isDisplayed();
     }
+
 
 
 //    public void verifyEnteredInfoIsCorrect() {

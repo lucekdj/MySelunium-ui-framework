@@ -26,6 +26,8 @@ Feature:  New SavingAcc Feature
     And verify entered info is correct
 
 
+    Scenario: User is not able to create New Saving Account with missing or invalid informations (deposit amount)
+
 
 
 

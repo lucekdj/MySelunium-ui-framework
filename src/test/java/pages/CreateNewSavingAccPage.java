@@ -47,7 +47,7 @@ public class CreateNewSavingAccPage extends BasePage{
 
 
 
-    public void accountTapeOption()  {
+    public void accountTapeAndOwnershipOption()  {
 
         try {
             radioSavings.click();

@@ -4,8 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3216ea77-78e9-4cb4-99e2-7fbf77e4fbdc" name="Changes" comment="Feb 21  FancyTest in ReportFolder">
+    <list default="true" id="3216ea77-78e9-4cb4-99e2-7fbf77e4fbdc" name="Changes" comment="Feb 28  Shyam first day framework -DatabaseUtils,hooks">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/InternalTransferPageSy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ViewAccountPageSy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomeStepsSy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/InternalTransferStepsSy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/ViewAccountStepsSy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseClassShyam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TransferFoundSy.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateNewSavingAccPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateNewSavingAccPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CreateNewSavingAccSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CreateNewSavingAccSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DataBaseGulnur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DataBaseGulnur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DataBaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DataBaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NewSavingAcc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NewSavingAcc.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +65,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucek/IdeaProjects/Alex -group-project/Valter-selenium-ui-framework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucek/IdeaProjects/My_GIT_HUB_PROGRAMS/My-ui-framework&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -64,8 +82,11 @@
       <recent name="C:\Users\lucek\IdeaProjects\MyGitHubPrograms\MySelenium-ui-framework" />
       <recent name="C:\Users\lucek\IdeaProjects\selenium-ui-framework\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User is able to verify info from his created savings accounts">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify user is able to login with valid credentials (1)">
     <configuration name="Scenario: User Is Able To Fill Out New Saving Account Form And Reset" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewSavingAcc.feature" />
@@ -106,6 +127,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify user is able to login with valid credentials (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TransferFoundSy.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="My-ui-framework" />
+      <option name="NAME_FILTER" value="^Verify user is able to login with valid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify user is able to login with valid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify user is able to login with valid credentials" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify user is able to login with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TransferDigitalBank.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="My-ui-framework" />
+      <option name="NAME_FILTER" value="^Verify user is able to login with valid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify user is able to login with valid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify user is able to login with valid credentials" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FancyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="My-ui-framework" />
       <extension name="coverage">
@@ -121,50 +182,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="My-ui-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.SmokeRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="My-ui-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials (1)" />
+      <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials" />
       <item itemvalue="Cucumber Java.Scenario: User is able to verify info from his created savings accounts" />
       <item itemvalue="Cucumber Java.Scenario: User Is Able To Fill Out New Saving Account Form And Reset" />
-      <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="JUnit.FancyTest" />
-      <item itemvalue="JUnit.SmokeRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials" />
         <item itemvalue="Cucumber Java.Scenario: User is able to verify info from his created savings accounts" />
         <item itemvalue="Cucumber Java.Scenario: User Is Able To Fill Out New Saving Account Form And Reset" />
         <item itemvalue="JUnit.FancyTest" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="JUnit.SmokeRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676992971860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feb 28  Shyam first day framework -DatabaseUtils,hooks">
+      <created>1677642671495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677642671495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +247,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Feb 14  readme.md / Faker" />
     <MESSAGE value="Feb 21  FancyTest in ReportFolder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 21  FancyTest in ReportFolder" />
+    <MESSAGE value="Feb 28  Shyam first day framework -DatabaseUtils,hooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 28  Shyam first day framework -DatabaseUtils,hooks" />
   </component>
 </project>

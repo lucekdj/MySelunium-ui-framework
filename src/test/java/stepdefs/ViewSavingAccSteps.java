@@ -2,15 +2,14 @@ package stepdefs;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.support.FindBy;
 import pages.ViewSavingAccPage;
 
 public class ViewSavingAccSteps {
 
 
-    
     ViewSavingAccPage viewSavingAccPage = new ViewSavingAccPage();
-
 
 
     @Then("verify View Savings Btn is displayed")
@@ -23,13 +22,16 @@ public class ViewSavingAccSteps {
         viewSavingAccPage.clickOnNewSavingBtn();
     }
 
+//    @Then("verify user is on View Saving Page")
+//    public void verify_user_is_on_view_saving_page() throws InterruptedException {
+//        viewSavingAccPage.verifyIsOnViewSavingPage();
+//    }
+
     @Then("verify user is on View Saving Page")
-    public void verify_user_is_on_view_saving_page() throws InterruptedException {
-        viewSavingAccPage.verifyIsOnViewSavingPage();
+    public void verify_user_is_on_view_saving_page() {   // Valter sposob Assortion above is mine
+
+        Assert.assertTrue("View Saving Page Is Not Displayed", viewSavingAccPage.verifyIsOnViewSavingPage());
     }
-
-
-
     @Then("verify entered info is correct")
     public void verify_entered_info_is_correct() {
         viewSavingAccPage.verifyEnteredInfoIsCorrect();

@@ -30,6 +30,7 @@ public class ConfigReader {
 //            FileReader fileReader = new FileReader("src/test/resources/config.properties");
 //            //here we are initializing our properties object
 //            properties = new Properties();
+        //Here we are using the .load(fileReader) method in order to pass the file reader to the properties object
 //            properties.load(fileReader);
 //        } catch (Exception e) {
 //            //Here we are just printing the exception stack trace if there is one caught
@@ -39,7 +40,8 @@ public class ConfigReader {
     }
 
 
-    public static String getConfigProperty (String key){
+    public static String getConfigProperty (String key){   // get method initializeProperties
+        //Here we are returning the value stored inside of the key passed as an argument to this method
             return properties.getProperty(key);
     }
 

@@ -3,7 +3,7 @@ Feature: Login feature
 
   @Smoke
   Scenario: Verify user is able to login with valid credentials
-    Given user enters valid "valid.username" and "valid.password"
+    Given user enters valid "valid.username3" and "valid.password3"
     When user clicks on Sign In button
     Then verify user is successfully logged in to the account
 

@@ -19,6 +19,9 @@ public class HomePage extends BasePage{
     @FindBy (id = "new-savings-menu-item")
     WebElement newSavingsOptBtn;
 
+    @FindBy(id = "transfer-menu-item")
+    WebElement transferItemMenu;
+
 
     public void verifyHomePage(){
         Assert.assertTrue("Welcome test message not visible could be on wrong page", welcomeUserMessage_Lolo.isDisplayed());
@@ -32,12 +35,11 @@ public class HomePage extends BasePage{
         Assert.assertTrue("New Savings Btn is not displayed",newSavingsOptBtn.isDisplayed());
     }
 
-    public void clickOnNewSavingsBtn(){
+    public void clickOnNewSavingsBtn() {
         newSavingsOptBtn.click();
+    }
 
-
-
-
-
+    public void clickOnTransferBetweenAccounts() {
+        transferItemMenu.click();
     }
 }
