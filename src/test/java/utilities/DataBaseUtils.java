@@ -5,9 +5,9 @@ import java.sql.*;
 public class DataBaseUtils {   //   Shyam he transfers old DataBaseClass into Utils
     // localhost:API address where to go to the server
 
-    static String url = ConfigReader.getConfigProperty("db.url3");
-    static String username = ConfigReader.getConfigProperty("db.userName3");
-    static String password = ConfigReader.getConfigProperty("db.password3");
+    static String url = ConfigReader.getConfigProperty("db.url");
+    static String username = ConfigReader.getConfigProperty("db.userName");
+    static String password = ConfigReader.getConfigProperty("db.password");
 
 
     static Connection connection;
@@ -30,9 +30,7 @@ public class DataBaseUtils {   //   Shyam he transfers old DataBaseClass into Ut
 
     public static ResultSet executeQuery(String query) {
         try {
-
-            result = statement.executeQuery(query);
-
+            result = statement.executeQuery(query); // we can add limit 3 at the end
         } catch (Exception e) {
             e.printStackTrace();
         }
