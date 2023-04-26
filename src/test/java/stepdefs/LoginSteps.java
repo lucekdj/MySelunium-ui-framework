@@ -22,11 +22,11 @@ public class LoginSteps {
     public void user_clicks_on_sign_in_button() {
         loginPage.clickSignInBtn();
     }
-
+//      this is moved to home page  when we build with Shyam
 //    @Then("verify user is successfully logged in to the account")
 //    public void verify_user_is_successfully_logged_in_to_the_account() {
 //        homePage.verifyHomePage();
-//    }             this is moved to home page  when we build with Shyam
+//    }
 
 
     @Given("user enters invalid username {string} and invalid password {string}")
